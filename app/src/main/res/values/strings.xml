@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Launcher</string>
+    <string name="talk">对讲</string>
+    <string name="monitor">监视</string>
+    <string name="electric_lift_control">电梯控制</string>
+    <string name="message">信息资讯</string>
+    <string name="apps">应用</string>
+    <string name="setting">系统设置</string>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/time_view_width"
+    android:layout_height="@dimen/time_view_height"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_home_time_hour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="08"
+        android:textColor="@color/white"
+        android:textSize="@dimen/time_view_text_size" />
+
+    <ImageView
+        android:layout_width="@dimen/time_view_line_width"
+        android:layout_height="@dimen/time_view_line_height"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/purple" />
+
+    <TextView
+        android:id="@+id/tv_home_time_min"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="30"
+        android:textColor="@color/purple"
+        android:textSize="@dimen/time_view_text_size" />
+
+    <TextView
+        android:id="@+id/tv_home_time_pm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:paddingRight="@dimen/time_view_pm_padding_right"
+        android:textColor="@color/white"
+        android:text="pm"
+        android:textSize="@dimen/time_view_pm_text_size" />
+
+    <TextView
+        android:id="@+id/tv_home_time_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:paddingLeft="@dimen/time_view_day_padding_left"
+        android:textColor="@color/white"
+        android:text="星期五"
+        android:textSize="@dimen/time_view_day_text_size" />
+
+    <TextView
+        android:id="@+id/tv_home_time_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_marginTop="@dimen/d_15"
+        android:paddingLeft="@dimen/time_view_day_padding_left"
+        android:text="2017-10-08"
+        android:textColor="@color/white"
+        android:textSize="@dimen/time_view_day_text_size" />
+</LinearLayout>

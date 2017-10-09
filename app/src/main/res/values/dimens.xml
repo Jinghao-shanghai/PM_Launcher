@@ -1,0 +1,50 @@
+<resources>
+
+    <!--常用尺寸-->
+    <dimen name="d_10">10dp</dimen>
+    <dimen name="d_15">15dp</dimen>
+    <dimen name="d_20">20dp</dimen>
+    <dimen name="d_25">25dp</dimen>
+    <dimen name="d_30">30dp</dimen>
+    <dimen name="d_40">40dp</dimen>
+    <dimen name="d_50">50dp</dimen>
+    <dimen name="d_100">100dp</dimen>
+    <!--状态栏相关-->
+    <dimen name="statebar_top_padding">15dp</dimen>
+    <dimen name="statebar_bottom_padding">15dp</dimen>
+    <dimen name="statebar_height">63dp</dimen>
+    <dimen name="statebar_left_padding">60dp</dimen>
+    <dimen name="statebar_right_padding">60dp</dimen>
+    <dimen name="statebar_margin">30dp</dimen>
+
+    <!--首页布局-->
+    <dimen name="main_view_height">502dp</dimen>
+    <dimen name="main_view_magin">30dp</dimen>
+    <dimen name="main_view_magin_top">63dp</dimen>
+    <dimen name="main_view_left_wdith">220dp</dimen>
+    <dimen name="main_view_center_wdith">362dp</dimen>
+    <dimen name="main_view_ad_wdith">362dp</dimen>
+    <dimen name="main_view_module_width">176dp</dimen>
+    <dimen name="main_view_module_height">160dp</dimen>
+    <dimen name="main_view_module_text_size">22dp</dimen>
+
+
+
+    <!--天气相关-->
+    <dimen name="weather_view_weather">25dp</dimen>
+    <dimen name="weather_view_height">180dp</dimen>
+    <dimen name="weather_view_width">220dp</dimen>
+    <dimen name="weather_view_margin">10dp</dimen>
+    <dimen name="weather_view_padding">10dp</dimen>
+
+    <!--时间相关-->
+    <dimen name="time_view_height">315dp</dimen>
+    <dimen name="time_view_width">220dp</dimen>
+    <dimen name="time_view_text_size">80dp</dimen>
+    <dimen name="time_view_pm_text_size">15dp</dimen>
+    <dimen name="time_view_day_text_size">25dp</dimen>
+    <dimen name="time_view_pm_padding_right">15dp</dimen>
+    <dimen name="time_view_day_padding_left">15dp</dimen>
+    <dimen name="time_view_line_height">1dp</dimen>
+    <dimen name="time_view_line_width">147dp</dimen>
+</resources>

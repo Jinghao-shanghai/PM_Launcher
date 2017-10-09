@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/weather_view_width"
+    android:layout_height="@dimen/weather_view_height"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:padding="@dimen/weather_view_padding">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_home_weatherview_weather"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="晴"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/weather_view_weather" />
+
+        <TextView
+            android:id="@+id/tv_home_weatherview_temperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/weather_view_margin"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/weather_view_weather"
+            android:text="38℃" />
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/iv_home_weatherview_temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/weather_sun"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        />
+
+
+</RelativeLayout>
+
